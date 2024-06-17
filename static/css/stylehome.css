@@ -29,3 +29,21 @@ button {
     margin-left: 1%;
     margin-right: 1%;
 }
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #E65100;
+    
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    border: 5px solid #000;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
