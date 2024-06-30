@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Web Vet</title>
+         <link rel="stylesheet" href="../static/css/styleregister.css" type="text/css" media="all" />
+        <script src="../static/js/appregister.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <h1>Registra tus Datos</h1>
+        <form action = "/register_user" method = "post" enctype=multipart/form-data>
+            <label>Identificación</label> <input type="number" name="id"  /><br><br>
+            <label>Nombre del dueño</label> <input type="text" name="Nombre"  /><br><br>
+            <label>Apellidos del dueño</label> <input type="text" name="Apellidos" /><br><br>
+            <label>Teléfono</label> <input type="tel" name="Telefono"  /><br><br>
+            <label>Nombre de la Mascota</label> <input type="text" name="Mascota" /><br><br>
+            <label>Fecha de Nacimiento</label> <input type="date" name = "Nacimiento" /><br><br>
+            <label>Clase de la Mascota</label> <input type="text" name="Clase" /><br><br>
+            <input type ="file" name="photo"><br><br>
+            <button>Registrar</button><br><br>
+            
+        </form>
+    </body>
+</html>
