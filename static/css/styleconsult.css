@@ -29,3 +29,34 @@ button {
 img {
     height: 120px
 }
+
+
+
+.imagen-empresa {
+    max-width: 100%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+
+label {
+    display: inline; /* Mostrar etiqueta en bloque */
+    text-align: left; /* Alinear texto al centro */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+textarea {
+    width: 25%; /* Ancho completo del textarea */
+    padding: 10px; /* Relleno interior */
+    box-sizing: border-box; /* Incluir el padding en el ancho total */
+    resize: vertical; /* Permitir ajuste vertical */
+    min-height: 100px; /* Altura mínima del textarea */
+    max-height: 300px; /* Altura máxima del textarea */
+    overflow-y: auto; /* Scroll vertical si se supera la altura máxima */
+    background-color: #efdecd;
+}
+
+input{
+	background-color:#efdecd;
+}
+	
